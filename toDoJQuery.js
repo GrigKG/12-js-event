@@ -1,7 +1,7 @@
 $(document).ready(function () {
     $(root).text('Add new item: ');
     const input = $('<input></input>');
-    const buttonAdd = $('<button></button>').text('new item');
+    const buttonAdd = $('<button>new item</button>');
     const ol = $('<ol></ol>');
     $(root).append(input, buttonAdd, ol);
     $(buttonAdd).click(function () {
